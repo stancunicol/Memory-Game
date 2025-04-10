@@ -1,0 +1,124 @@
+{
+  "Username": "nicol",
+  "RemainingTime": "00:01:58",
+  "MatchedPairsCount": 0,
+  "Cards": [
+    {
+      "CurrentImage": "pack://application:,,,/View/backImage.jpg",
+      "ImagePath": "pack://application:,,,/View/Cats/cat3.jpg",
+      "BackImagePath": "pack://application:,,,/View/backImage.jpg",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "CurrentImage": "pack://application:,,,/View/backImage.jpg",
+      "ImagePath": "pack://application:,,,/View/Cats/cat7.jpg",
+      "BackImagePath": "pack://application:,,,/View/backImage.jpg",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "CurrentImage": "pack://application:,,,/View/backImage.jpg",
+      "ImagePath": "pack://application:,,,/View/Cats/cat6.jpg",
+      "BackImagePath": "pack://application:,,,/View/backImage.jpg",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "CurrentImage": "pack://application:,,,/View/backImage.jpg",
+      "ImagePath": "pack://application:,,,/View/Cats/cat6.jpg",
+      "BackImagePath": "pack://application:,,,/View/backImage.jpg",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "CurrentImage": "pack://application:,,,/View/backImage.jpg",
+      "ImagePath": "pack://application:,,,/View/Cats/cat16.jpg",
+      "BackImagePath": "pack://application:,,,/View/backImage.jpg",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "CurrentImage": "pack://application:,,,/View/backImage.jpg",
+      "ImagePath": "pack://application:,,,/View/Cats/cat16.jpg",
+      "BackImagePath": "pack://application:,,,/View/backImage.jpg",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "CurrentImage": "pack://application:,,,/View/backImage.jpg",
+      "ImagePath": "pack://application:,,,/View/Cats/cat5.jpg",
+      "BackImagePath": "pack://application:,,,/View/backImage.jpg",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "CurrentImage": "pack://application:,,,/View/backImage.jpg",
+      "ImagePath": "pack://application:,,,/View/Cats/cat2.jpg",
+      "BackImagePath": "pack://application:,,,/View/backImage.jpg",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "CurrentImage": "pack://application:,,,/View/backImage.jpg",
+      "ImagePath": "pack://application:,,,/View/Cats/cat18.jpg",
+      "BackImagePath": "pack://application:,,,/View/backImage.jpg",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "CurrentImage": "pack://application:,,,/View/backImage.jpg",
+      "ImagePath": "pack://application:,,,/View/Cats/cat17.jpg",
+      "BackImagePath": "pack://application:,,,/View/backImage.jpg",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "CurrentImage": "pack://application:,,,/View/backImage.jpg",
+      "ImagePath": "pack://application:,,,/View/Cats/cat7.jpg",
+      "BackImagePath": "pack://application:,,,/View/backImage.jpg",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "CurrentImage": "pack://application:,,,/View/backImage.jpg",
+      "ImagePath": "pack://application:,,,/View/Cats/cat18.jpg",
+      "BackImagePath": "pack://application:,,,/View/backImage.jpg",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "CurrentImage": "pack://application:,,,/View/backImage.jpg",
+      "ImagePath": "pack://application:,,,/View/Cats/cat17.jpg",
+      "BackImagePath": "pack://application:,,,/View/backImage.jpg",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "CurrentImage": "pack://application:,,,/View/backImage.jpg",
+      "ImagePath": "pack://application:,,,/View/Cats/cat3.jpg",
+      "BackImagePath": "pack://application:,,,/View/backImage.jpg",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "CurrentImage": "pack://application:,,,/View/backImage.jpg",
+      "ImagePath": "pack://application:,,,/View/Cats/cat5.jpg",
+      "BackImagePath": "pack://application:,,,/View/backImage.jpg",
+      "IsFlipped": false,
+      "IsMatched": false
+    },
+    {
+      "CurrentImage": "pack://application:,,,/View/backImage.jpg",
+      "ImagePath": "pack://application:,,,/View/Cats/cat2.jpg",
+      "BackImagePath": "pack://application:,,,/View/backImage.jpg",
+      "IsFlipped": false,
+      "IsMatched": false
+    }
+  ],
+  "Rows": 4,
+  "Columns": 4,
+  "Category": "cats",
+  "LastSaved": "2025-04-08T13:26:40.8469535+03:00",
+  "Type": "Standard"
+}

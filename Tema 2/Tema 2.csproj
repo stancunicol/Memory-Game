@@ -1,0 +1,200 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Tema_2</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="View\aestheticWallpaper.jpg" />
+    <None Remove="View\backImage.jpg" />
+    <None Remove="View\Cats\cat1.jpg" />
+    <None Remove="View\Cats\cat10.jpg" />
+    <None Remove="View\Cats\cat11.jpg" />
+    <None Remove="View\Cats\cat12.jpg" />
+    <None Remove="View\Cats\cat13.jpg" />
+    <None Remove="View\Cats\cat14.jpg" />
+    <None Remove="View\Cats\cat15.jpg" />
+    <None Remove="View\Cats\cat16.jpg" />
+    <None Remove="View\Cats\cat17.jpg" />
+    <None Remove="View\Cats\cat18.jpg" />
+    <None Remove="View\Cats\cat2.jpg" />
+    <None Remove="View\Cats\cat3.jpg" />
+    <None Remove="View\Cats\cat4.jpg" />
+    <None Remove="View\Cats\cat5.jpg" />
+    <None Remove="View\Cats\cat6.jpg" />
+    <None Remove="View\Cats\cat7.jpg" />
+    <None Remove="View\Cats\cat8.jpg" />
+    <None Remove="View\Cats\cat9.jpg" />
+    <None Remove="View\external-Memory-game-table-games-icongeek26-linear-colour-icongeek26.png" />
+    <None Remove="View\Flowers\flower1.jpg" />
+    <None Remove="View\Flowers\flower10.jpg" />
+    <None Remove="View\Flowers\flower11.jpg" />
+    <None Remove="View\Flowers\flower12.jpg" />
+    <None Remove="View\Flowers\flower13.jpg" />
+    <None Remove="View\Flowers\flower14.jpg" />
+    <None Remove="View\Flowers\flower15.jpg" />
+    <None Remove="View\Flowers\flower16.jpg" />
+    <None Remove="View\Flowers\flower17.jpg" />
+    <None Remove="View\Flowers\flower18.jpg" />
+    <None Remove="View\Flowers\flower2.jpg" />
+    <None Remove="View\Flowers\flower3.jpg" />
+    <None Remove="View\Flowers\flower4.jpg" />
+    <None Remove="View\Flowers\flower5.jpg" />
+    <None Remove="View\Flowers\flower6.jpg" />
+    <None Remove="View\Flowers\flower7.jpg" />
+    <None Remove="View\Flowers\flower8.jpg" />
+    <None Remove="View\Flowers\flower9.jpg" />
+    <None Remove="View\icon.jpg" />
+    <None Remove="View\new-user-icon-10.jpg" />
+    <None Remove="View\Shells\shell1.jpg" />
+    <None Remove="View\Shells\shell10.jpg" />
+    <None Remove="View\Shells\shell11.jpg" />
+    <None Remove="View\Shells\shell12.jpg" />
+    <None Remove="View\Shells\shell13.jpg" />
+    <None Remove="View\Shells\shell14.jpg" />
+    <None Remove="View\Shells\shell15.jpg" />
+    <None Remove="View\Shells\shell16.jpg" />
+    <None Remove="View\Shells\shell17.jpg" />
+    <None Remove="View\Shells\shell18.jpg" />
+    <None Remove="View\Shells\shell2.jpg" />
+    <None Remove="View\Shells\shell3.jpg" />
+    <None Remove="View\Shells\shell4.jpg" />
+    <None Remove="View\Shells\shell5.jpg" />
+    <None Remove="View\Shells\shell6.jpg" />
+    <None Remove="View\Shells\shell7.jpg" />
+    <None Remove="View\Shells\shell8.jpg" />
+    <None Remove="View\Shells\shell9.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="View\aestheticWallpaper.jpg" />
+    <Resource Include="View\backImage.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat10.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat11.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat12.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat13.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat14.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat15.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat16.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat17.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat18.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat6.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat7.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat8.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Cats\cat9.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Flowers\flower1.jpg" />
+    <Resource Include="View\Flowers\flower10.jpg" />
+    <Resource Include="View\Flowers\flower11.jpg" />
+    <Resource Include="View\Flowers\flower12.jpg" />
+    <Resource Include="View\Flowers\flower13.jpg" />
+    <Resource Include="View\Flowers\flower14.jpg" />
+    <Resource Include="View\Flowers\flower15.jpg" />
+    <Resource Include="View\Flowers\flower16.jpg" />
+    <Resource Include="View\Flowers\flower17.jpg" />
+    <Resource Include="View\Flowers\flower18.jpg" />
+    <Resource Include="View\Flowers\flower2.jpg" />
+    <Resource Include="View\Flowers\flower3.jpg" />
+    <Resource Include="View\Flowers\flower4.jpg" />
+    <Resource Include="View\Flowers\flower5.jpg" />
+    <Resource Include="View\Flowers\flower6.jpg" />
+    <Resource Include="View\Flowers\flower7.jpg" />
+    <Resource Include="View\Flowers\flower8.jpg" />
+    <Resource Include="View\Flowers\flower9.jpg" />
+    <Resource Include="View\icon.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="View\Shells\shell1.jpg" />
+    <Resource Include="View\Shells\shell10.jpg" />
+    <Resource Include="View\Shells\shell11.jpg" />
+    <Resource Include="View\Shells\shell12.jpg" />
+    <Resource Include="View\Shells\shell13.jpg" />
+    <Resource Include="View\Shells\shell14.jpg" />
+    <Resource Include="View\Shells\shell15.jpg" />
+    <Resource Include="View\Shells\shell16.jpg" />
+    <Resource Include="View\Shells\shell17.jpg" />
+    <Resource Include="View\Shells\shell18.jpg" />
+    <Resource Include="View\Shells\shell2.jpg" />
+    <Resource Include="View\Shells\shell3.jpg" />
+    <Resource Include="View\Shells\shell4.jpg" />
+    <Resource Include="View\Shells\shell5.jpg" />
+    <Resource Include="View\Shells\shell6.jpg" />
+    <Resource Include="View\Shells\shell7.jpg" />
+    <Resource Include="View\Shells\shell8.jpg" />
+    <Resource Include="View\Shells\shell9.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="View\MainWindow.xaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
+</Project>

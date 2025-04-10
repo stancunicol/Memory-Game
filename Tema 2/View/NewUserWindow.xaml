@@ -1,0 +1,91 @@
+<Window x:Class="Tema_2.View.NewUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema_2"
+        mc:Ignorable="d"
+        Title="Create New User"
+        Height="600" Width="600"
+        Icon="icon.jpg">
+
+    <Grid x:Name="Grid">
+
+        <Grid.Background>
+            <ImageBrush ImageSource="aestheticWallpaper.jpg" Opacity="0.2">
+            </ImageBrush>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="EnterName" Text="Please enter a name:" Background="Transparent" Margin="10,10,380,513" Grid.Row="1" FontWeight="Bold" BorderBrush="Transparent" FontSize="20"/>
+
+        <TextBox x:Name="Username" Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}" Margin="10,57,258,471" Grid.Row="1" Background="Transparent" FontSize="20" FontWeight="Bold">
+            <TextBox.Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Foreground" Value="Gray"/>
+                    <Setter Property="Text" Value="Username (minim 3 characters)"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsKeyboardFocused" Value="True">
+                            <Setter Property="Foreground" Value="Black"/>
+                            <Setter Property="Text" Value="{Binding Username}"/>
+                        </Trigger>
+                        <DataTrigger Binding="{Binding IsValid}" Value="False">
+                            <Setter Property="BorderBrush" Value="Red"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+
+        <TextBox x:Name="ChoosePicture" Text="Please choose a picture for your avatar:" Background="Transparent" Margin="10,141,190,389" Grid.Row="1" FontWeight="Bold" BorderBrush="Transparent" RenderTransformOrigin="0.5,0.5" FontSize="20">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+
+        <Button x:Name="Left" Content="Left" FontWeight="Bold" BorderBrush="Transparent" Background="Transparent" Margin="68,386,397,156" Grid.Row="1" Command="{Binding PreviousImageCommand}">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="Right" Content="Right" FontWeight="Bold" BorderBrush="Transparent" Background="Transparent" RenderTransformOrigin="-2.913,7.378" Margin="372,386,49,156" Grid.Row="1" Command="{Binding NextImageCommand}">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Button x:Name="OK" Content="OK" FontWeight="Bold" BorderBrush="Transparent" Background="Transparent" RenderTransformOrigin="-2.913,7.378" Margin="230,474,230,68" Grid.Row="1" Command="{Binding CreateUserCommand}" IsEnabled="{Binding IsValid}" Click="OK_Click" >
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <StackPanel x:Name="Avatars"
+                    Orientation="Vertical"
+                    VerticalAlignment="Center"
+                    Grid.Row="1">
+            <Image Source="{Binding CurrentImage}"
+                   Width="323"
+                   Height="200"
+                   />
+        </StackPanel>
+
+    </Grid>
+
+</Window>
